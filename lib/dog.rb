@@ -56,9 +56,9 @@ class Dog
   end
 
   def self.new_from_db(row)
-    :id = row[0]
-    :name = row[1]
-    :breed = row[2]
-    self.new(id:, name:, breed:)
+    id = row[0]
+    name = row[1]
+    breed = row[2]
+    self.new(id: id,name: name,breed: breed)
   end
 end
