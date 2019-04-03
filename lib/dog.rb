@@ -73,4 +73,7 @@ class Dog
       dog
     end
 
+    def find_by_name
+
+    end
 end
