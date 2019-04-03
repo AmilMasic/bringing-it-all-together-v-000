@@ -73,9 +73,9 @@ class Dog
       dog
     end
 
-    def find_by_name
-
-    end
+    # def find_by_name
+    #
+    # end
 
     def update
       sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
